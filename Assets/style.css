@@ -1,0 +1,12 @@
+:root{
+    --body-copy: 17px;
+    --body-copy-line-height: calc(var(--body-copy)*1.2);
+
+    --main-heading: 7vw;
+    --main-heading-line-height: calc(var(--main-heading));
+
+    --form: rgba(255, 255, 255, 0.7);
+    --border-radius: 0px;
+    --form-width: 500px;
+    --form-mob-width: 300px;
+}
