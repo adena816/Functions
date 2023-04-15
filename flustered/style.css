@@ -1,0 +1,36 @@
+
+.pattern {
+  background-image: radial-gradient(#D7A253 0%, transparent 60%);
+  height: 60vh;
+}
+
+
+  .flower {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+  }  
+
+  .circle{
+      max-width: 300px;
+      width: 100%;
+      border: 1px black solid;
+      border-radius: 100%;
+  }
+  
+  @keyframes circle{
+    0%{
+      transform:rotate(0deg)
+                translate(-140px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-140px)
+                rotate(-360deg);
+    }
+  }
