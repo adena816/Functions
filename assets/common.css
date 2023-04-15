@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+
+:root{
+    --body-copy: 14px;
+    --body-copy-line-height: calc(var(--body-copy)*1.2);
+
+    --main-heading: 13vw;
+    --main-heading-line-height: calc(var(--main-heading));
+}
+
+
+
+body {
+    box-sizing: border-box;
+    font-family: 'garamond_condensed_lightIt', sans-serif;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.text {
+    display: block;
+    height: 40vh;
+    font-family: 'Source Code Pro', monospace;
+    font-size: var(--body-copy);
+    width: 80%;
+    margin: auto;
+    padding: auto;
+}
+
+h2 {
+    text-transform: uppercase;
+}
