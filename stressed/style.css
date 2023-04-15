@@ -1,8 +1,7 @@
 
     .pattern {
-    background-image: radial-gradient(#785986 0%, transparent 60%);
-    aspect-ratio: 1/1;
-    }
+    background-image: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(50, 50, 50, 0.8) 0%, rgba(80, 80, 80, 0.2) );  
+}
 
 
   .flower {
