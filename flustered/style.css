@@ -34,3 +34,20 @@
                 rotate(-360deg);
     }
   }
+
+  @media screen and (min-width: 500px ) {
+    body {
+      background-image: radial-gradient(#D7A253 0%, transparent 60%);
+    }
+
+    .pattern {
+        background-image: none;
+    }
+
+    .circle {
+      height: 375px;
+      width: 375px;
+    }
+
+    
+  }

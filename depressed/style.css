@@ -99,3 +99,21 @@
     66%  { width: 22px;}
     100% { width: 1000px; }
   }
+
+  @media screen and (min-width: 500px ) {
+    body {
+      background-image: radial-gradient(#859D5E 0%, transparent 60%);
+
+    }
+
+    .pattern {
+        background-image: none;
+    }
+
+    .circle {
+      height: 375px;
+      width: 375px;
+    }
+
+    
+  }
