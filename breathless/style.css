@@ -1,7 +1,7 @@
 
     .pattern {
     background-image: radial-gradient(#785986 0%, transparent 60%);
-    }
+  }
 
 
   .flower {
@@ -108,5 +108,77 @@
     }
     100% {
       transform: translate(35px, -50px);
+    }
+  }
+
+
+
+  @media screen and (min-width: 500px ) {
+    body {
+      background-image: radial-gradient(#785986 0%, transparent 60%);
+    }
+
+    .pattern {
+        background-image: none;
+    }
+
+    .circle {
+      height: 375px;
+      width: 375px;
+    }
+
+    
+    @keyframes circle-1 {
+      0% {
+        transform: translate(0, 0);
+      }
+      100% {
+        transform: translate(-105px, -150px);
+      }
+    }
+    
+    @keyframes circle-2 {
+      0% {
+        transform: translate(0, 0);
+      }
+      100% {
+        transform: translate(105px, 150px);
+      }
+    }
+    
+    @keyframes circle-3 {
+      0% {
+        transform: translate(0, 0);
+      }
+      100% {
+        transform: translate(-180px, 0);
+      }
+    }
+    
+    @keyframes circle-4 {
+      0% {
+        transform: translate(0, 0);
+      }
+      100% {
+        transform: translate(180px, 0);
+      }
+    }
+    
+    @keyframes circle-5 {
+      0% {
+        transform: translate(0, 0);
+      }
+      100% {
+        transform: translate(-105px, 150px);
+      }
+    }
+    
+    @keyframes circle-6 {
+      0% {
+        transform: translate(0, 0);
+      }
+      100% {
+        transform: translate(105px, -150px);
+      }
     }
   }
