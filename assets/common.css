@@ -20,6 +20,9 @@
 
 body {
     box-sizing: border-box;
+    width: 90vw;
+    margin: auto;
+    padding: auto;
 }
 
 .navigation {
@@ -55,6 +58,7 @@ a.sticky:visited{
 
 h1 {
     margin-bottom: 50px;
+    font-size: var(--main-heading);
 }
 
 .one:hover {
