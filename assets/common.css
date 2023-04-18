@@ -1,6 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
 
+@font-face {
+    font-family: 'pp_neue_montrealmedium';
+    src: url('../assets/fonts/ppneuemontreal-medium-webfont.woff2') format('woff2'),
+         url('../assets/fonts/ppneuemontreal-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 :root{
     --body-copy: 14px;
@@ -10,11 +18,45 @@
     --main-heading-line-height: calc(var(--main-heading));
 }
 
-
-
 body {
     box-sizing: border-box;
-    font-family: 'garamond_condensed_lightIt', sans-serif;
+}
+
+.navigation {
+    width: 70vw;
+    margin: auto;
+    padding: auto;
+    font-family: 'pp_neue_montrealmedium';
+    margin-top: 150px;
+    font-size: var(--main-heading);
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+.one:hover {
+    color: #4A8CAE;
+}
+
+.two:hover {
+    color: #859D5E;
+}
+
+.three:hover {
+    color: #D883A2;
+}
+
+.four:hover {
+    color: #D15353;
+}
+
+.five:hover {
+    color: #D7A253;
+}
+
+.six:hover {
+    color: #785986;
 }
 
 
