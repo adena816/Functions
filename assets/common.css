@@ -68,6 +68,7 @@ a.sticky:visited{
 
 h1 {
     margin-bottom: 50px;
+    font-family: 'pp_neue_montrealmedium';
     font-size: var(--main-heading);
 }
 
