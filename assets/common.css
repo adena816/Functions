@@ -23,7 +23,34 @@ body {
     width: 90vw;
     margin: auto;
     padding: auto;
+    animation-name: swap;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
 }
+
+@keyframes swap {
+    0% {
+		background: #4A8CAE;
+	}
+	16.6% {
+		background: #859D5E;
+	}
+	33.2% {
+		background: #D883A2;
+	}
+	49.8% {
+		background: #D15353;
+	}
+	66.4% {
+		background: #D7A253;
+	}
+	100% {
+		background: #785986;
+	}
+}
+
 
 .navigation {
     width: 70vw;
@@ -32,11 +59,17 @@ body {
     font-family: 'pp_neue_montrealmedium';
     margin-top: 150px;
     font-size: var(--main-heading);
+    color: white;
 }
+
 
 a {
     color: black;
     text-decoration: none;
+}
+
+a:hover {
+    color: white;
 }
 
 a:visited {
@@ -48,30 +81,6 @@ a:visited {
     margin-bottom: 50px;
     font-family: 'pp_neue_montrealmedium';
     font-size: var(--main-heading);
-}
-
-.one:hover {
-    color: #4A8CAE;
-}
-
-.two:hover {
-    color: #859D5E;
-}
-
-.three:hover {
-    color: #D883A2;
-}
-
-.four:hover {
-    color: #D15353;
-}
-
-.five:hover {
-    color: #D7A253;
-}
-
-.six:hover {
-    color: #785986;
 }
 
 
@@ -132,6 +141,16 @@ h2 {
         flex-direction: column;
         width: 20vw;
         height: 100vh;
+    }
+
+    .navigation {
+        width: 90vw;
+        font-size: calc(var(--main-heading)/1.7);
+    }
+
+    .navigation > p {
+        font-size: calc(var(--main-heading)/1.7);
+        margin-bottom: 0px;
     }
 
     
