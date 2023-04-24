@@ -60,6 +60,7 @@ body {
     margin-top: 150px;
     font-size: var(--main-heading);
     color: white;
+    text-decoration: none;
 }
 
 
