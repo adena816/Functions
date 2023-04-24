@@ -18,7 +18,7 @@ body {
   .circle {
     border-radius: 50%;
     animation-name: breath;
-    animation-duration: 6s;
+    animation-duration: 18s;
     animation-iteration-count: infinite;
     border: 1px solid black;
     position: absolute;
@@ -48,9 +48,14 @@ body {
     0% {
       transform: scale(0.8);
     }
-    50% {
+    30% {
       transform: scale(1.4);
     }
+
+    55% {
+      transform: scale(1.4);
+    }
+
     100% {
       transform: scale(0.8);
     }
