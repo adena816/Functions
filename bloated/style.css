@@ -67,7 +67,11 @@
             height: 100vh;
           }
 
-          .circle1 {
+        .circle {
+            border: 2px solid black;
+        }
+
+        .circle1 {
             width: 180px;
             height: 180px;
             animation-delay: 0s;

@@ -12,7 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 110px;
+  margin-top: 1px;
   margin-left: 40px;
 }
 
@@ -93,6 +93,18 @@
       align-items: center;
       margin-top: 160px;
       margin-left: 60px;
+    }
+
+    .flower span:nth-child(1) {
+      border: 1.5px solid black;
+    }
+
+    .flower span:nth-child(2) {
+      border: 1.5px solid black;
+    }
+
+    .flower span:nth-child(3) {
+      border: 1.5px solid black;
     }
 
     

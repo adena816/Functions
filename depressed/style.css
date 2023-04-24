@@ -2,11 +2,14 @@
 .pattern {
   background-image: radial-gradient(#859D5E 30%, transparent 60%);
   height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 } 
 
 
 .flower {
-  position: relative;
   margin-top: 100px;
   animation: floating 5s ease-in-out infinite;
   height: 250px;
@@ -30,13 +33,14 @@
 }
 
 .flower-shadow {
-  position: relative;
-  width: 95px;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
   height: 30px;
   top: 20px;
-  animation: expanding 5s infinite;
+  animation: expanding ease-in-out 5s infinite;
   border-radius: 50%;
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
 @keyframes expanding {
@@ -60,14 +64,15 @@
     }
 
     .flower {
-      position: relative;
-      width: 550px;
-      height: 550px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 160px;
-      margin-left: 60px;
+      height: 450px;
+      width: 450px;
+      border: 1.5px solid black;
+    }
+
+    .flower-shadow {
+      width: 400px;
+      height: 80px;
+      border: 2.5px solid black;
     }
 
     
