@@ -112,6 +112,11 @@ h2 {
     margin-top: 40px;
 }
 
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .patterndesktop {
     display: none;
 }
