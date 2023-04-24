@@ -24,19 +24,19 @@
     .circle1 {
         width: 80px;
         height: 80px;
-        animation-delay: 0s;
+        animation-delay: 0.2s;
     }
       
     .circle2 {
         width: 180px;
         height: 180px;
-        animation-delay: 1s;
+        animation-delay: 0.4s;
     }
       
     .circle3 {
         width: 280px;
         height: 280px;
-        animation-delay: 2s;
+        animation-delay: 0.8s;
     }
 
     @keyframes breath {
@@ -44,12 +44,16 @@
             opacity: 0;
         }
         
-        10% {
+        40% {
             opacity: 1;
         }
 
-        40% {
+        45% {
             opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
         }
         
         
@@ -74,19 +78,16 @@
         .circle1 {
             width: 180px;
             height: 180px;
-            animation-delay: 0s;
         }
           
         .circle2 {
             width: 380px;
             height: 380px;
-            animation-delay: 1s;
         }
           
         .circle3 {
             width: 580px;
             height: 580px;
-            animation-delay: 2s;
         }
     
         
