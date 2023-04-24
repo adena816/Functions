@@ -109,6 +109,7 @@ a:visited {
 h2 {
     text-decoration: underline;
     font-size: var(--body-copy);
+    margin-top: 0px;
 }
 
 .patterndesktop {
