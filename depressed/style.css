@@ -1,0 +1,74 @@
+
+.pattern {
+  background-image: radial-gradient(#859D5E 30%, transparent 60%);
+  height: 60vh;
+} 
+
+
+.flower {
+  position: relative;
+  margin-top: 100px;
+  animation: floating 5s ease-in-out infinite;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+@keyframes floating {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-50px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.flower-shadow {
+  position: relative;
+  width: 95px;
+  height: 30px;
+  top: 20px;
+  animation: expanding 5s infinite;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+@keyframes expanding {
+  0%,
+  100% {
+    transform: scale(0.5);
+  }
+
+  50% {
+    transform: scale(0.75);
+  }
+}
+
+
+
+  @media screen and (min-width: 500px ) {
+
+    .pattern {
+      background-image: radial-gradient(#859D5E 30%, transparent 60%);
+      height: 100vh;
+    }
+
+    .flower {
+      position: relative;
+      width: 550px;
+      height: 550px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 160px;
+      margin-left: 60px;
+    }
+
+    
+  }

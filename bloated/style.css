@@ -1,6 +1,6 @@
 
     .pattern {
-    background-image: radial-gradient(#D15353 40%, transparent 60%);
+    background-image: radial-gradient(#D15353 30%, transparent 60%);
     }
 
 
@@ -14,6 +14,7 @@
     .circle {
         border-radius: 50%;
         animation-name: breath;
+        animation-duration: 10s;
         animation-iteration-count: infinite;
         border: 1px solid black;
         position: absolute;
@@ -23,21 +24,18 @@
     .circle1 {
         width: 80px;
         height: 80px;
-        animation-duration: 10s;
         animation-delay: 0s;
     }
       
     .circle2 {
         width: 180px;
         height: 180px;
-        animation-duration: 10s;
         animation-delay: 1s;
     }
       
     .circle3 {
         width: 280px;
         height: 280px;
-        animation-duration: 10s;
         animation-delay: 2s;
     }
 
@@ -60,7 +58,7 @@
 
     @media screen and (min-width: 500px ) {
         .pattern {
-            background-image: radial-gradient(#D15353 40%, transparent 60%);
+            background-image: radial-gradient(#D15353 30%, transparent 60%);
         }
 
         .flower {
@@ -68,6 +66,24 @@
             justify-content: center;
             height: 100vh;
           }
+
+          .circle1 {
+            width: 180px;
+            height: 180px;
+            animation-delay: 0s;
+        }
+          
+        .circle2 {
+            width: 380px;
+            height: 380px;
+            animation-delay: 1s;
+        }
+          
+        .circle3 {
+            width: 580px;
+            height: 580px;
+            animation-delay: 2s;
+        }
     
         
     }

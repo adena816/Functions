@@ -7,7 +7,7 @@
   .flower {
     animation: pulse 4s cubic-bezier(0.5, 0, 0.5, 1) alternate infinite;
   }  
-  
+
   .circle {
     height: 125px;
     width: 125px;
@@ -117,7 +117,7 @@
   @media screen and (min-width: 500px ) {
 
     .pattern {
-      background-image: radial-gradient(#785986 40%, transparent 60%);
+      background-image: radial-gradient(#785986 30%, transparent 60%);
     }
 
     .flower {
