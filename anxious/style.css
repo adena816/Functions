@@ -1,6 +1,11 @@
 
-    .pattern {
-    background-image: radial-gradient(#4A8CAE 0%, transparent 60%);
+body {
+  background: none;
+}
+  
+  
+  .pattern {
+    background-image: radial-gradient(#4A8CAE 40%, transparent 60%);
   }
 
 
@@ -63,12 +68,9 @@
   }
 
   @media screen and (min-width: 500px ) {
-    body {
-      background-image: radial-gradient(#4A8CAE 0%, transparent 60%);
-    }
 
     .pattern {
-        background-image: none;
+      background-image: radial-gradient(#4A8CAE 40%, transparent 60%);
     }
 
     .flower {

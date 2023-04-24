@@ -120,8 +120,8 @@ h2 {
 @media screen and (min-width: 500px ) {
     .content {
         flex-direction: row;
-        width: 70vw;
-        margin-left: 30vw;
+        margin-left: 10vw;
+        margin-top: 5vh;
     }
 
     .pattern {
@@ -133,19 +133,20 @@ h2 {
     .flower {
         display: flex;
         width: 100vw;
-        height: 100vh;
     }
 
     .text {
         display: flex;
         flex-direction: column;
         width: 20vw;
-        height: 100vh;
+        margin-left: 15vw;
     }
 
     .navigation {
         width: 90vw;
+        height: 100vh;
         font-size: calc(var(--main-heading)/1.7);
+        margin-top: 75px;
     }
 
     .navigation > p {
