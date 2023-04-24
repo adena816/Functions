@@ -1,12 +1,13 @@
 
     .pattern {
-    background-image: radial-gradient(#785986 0%, transparent 60%);
+    background-image: radial-gradient(#785986 40%, transparent 60%);
   }
 
 
   .flower {
     animation: pulse 4s cubic-bezier(0.5, 0, 0.5, 1) alternate infinite;
   }  
+  
   .circle {
     height: 125px;
     width: 125px;
@@ -114,12 +115,13 @@
 
 
   @media screen and (min-width: 500px ) {
-    body {
-      background-image: radial-gradient(#785986 0%, transparent 60%);
-    }
 
     .pattern {
-        background-image: none;
+      background-image: radial-gradient(#785986 40%, transparent 60%);
+    }
+
+    .flower {
+      height: 100vh;
     }
 
     .circle {
