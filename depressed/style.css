@@ -11,7 +11,7 @@
 
 .flower {
   margin-top: 100px;
-  animation: floating 5s ease-in-out infinite;
+  animation: floating 8s ease-in-out infinite;
   height: 250px;
   width: 250px;
   border-radius: 50%;
@@ -24,7 +24,7 @@
   }
 
   50% {
-    transform: translatey(-50px);
+    transform: translatey(-80px);
   }
 
   100% {
@@ -38,7 +38,7 @@
   width: 150px;
   height: 30px;
   top: 20px;
-  animation: expanding ease-in-out 5s infinite;
+  animation: expanding ease-in-out 8s infinite;
   border-radius: 50%;
   border: 2px solid black;
 }
