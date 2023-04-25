@@ -51,13 +51,37 @@ body {
 	}
 }
 
+.about-circle {
+    display: block;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-image: radial-gradient(white 0%, transparent 60%);
+    margin-top: 2vh;
+    margin-left: 70vw;
+    animation-name: about-circle;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes about-circle {
+    0% {
+      transform: scale(0.6);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.6);
+    }
+}
 
 .navigation {
     width: 70vw;
     margin: auto;
     padding: auto;
     font-family: 'pp_neue_montrealmedium';
-    margin-top: 150px;
+    margin-top: 80px;
     font-size: var(--main-heading);
     color: white;
     text-decoration: none;
@@ -136,6 +160,13 @@ p {
         margin-left: 10vw;
     }
 
+    .about-circle {
+        margin-top: 2vh;
+        margin-left: 85vw;
+        width: 150px;
+        height: 150px;
+    }
+
     .pattern {
         display: flex;
         width: 40vw;
@@ -159,7 +190,7 @@ p {
         width: 90vw;
         height: 100vh;
         font-size: calc(var(--main-heading)/1.7);
-        margin-top: 75px;
+        margin-top: 0px;
     }
 
     .navigation > p {
