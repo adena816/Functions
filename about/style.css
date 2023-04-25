@@ -14,7 +14,7 @@ body {
     justify-content: center;
     align-items: left;
     width: 70vw;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 40px;
   }
 
@@ -28,6 +28,7 @@ body {
     font-family: 'Source Code Pro', monospace;
     color: white;
     margin-top: 30px;
+    font-size: var(--body-copy);
   }
 
   .pattern {
@@ -53,7 +54,7 @@ body {
 
     .about-title {
       font-size: calc(var(--main-heading)/1.7);
-      margin-top: 75px;
+      margin-top: 20px;
     }
 
     @keyframes pulse {
@@ -66,5 +67,11 @@ body {
       100% {
         transform: scale(0.6);
       }
+    }
+
+    .about {
+      width: 65vh;
+      font-size: calc(var(--body-copy)*1.1);
+
     }
   }
