@@ -1,0 +1,70 @@
+
+body {
+  background: none;
+}
+
+.about-body {
+  display: flex;
+  flex-direction: row;
+}
+
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 70vw;
+    margin-top: 100px;
+    margin-left: 40px;
+  }
+
+  .about-title {
+    font-family: 'pp_neue_montrealmedium';
+    font-size: var(--main-heading);
+    color: white;
+  }
+
+  .about {
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    margin-top: 30px;
+  }
+
+  .pattern {
+    display: none;
+  }
+
+  @media screen and (min-width: 500px ) {
+
+    .about-content {
+      width: 40vw;
+      margin-bottom:200px ;
+    }
+
+    .pattern {
+      display: flex;
+      height: 100vh;
+      background-image: radial-gradient(white 0%, transparent 60%);
+      margin-left: 100px;
+      animation-name: pulse;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+    }
+
+    .about-title {
+      font-size: calc(var(--main-heading)/1.7);
+      margin-top: 75px;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(0.6);
+      }
+      50% {
+        transform: scale(1.2);
+      }
+      100% {
+        transform: scale(0.6);
+      }
+    }
+  }
